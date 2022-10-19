@@ -7,7 +7,7 @@ import pymorphy2
 import os
 
 PORT = int(os.environ.get('PORT', '8443'))
-TOKEN = os.environ.get('TOKEN', "5662016842:AAGMrPbsi5F7B3wXVQwSFJTrokMW72RM0Ao")
+TOKEN = os.environ.get('TOKEN', "TOKEN")
 max_num_moves = 10
 levels_keyboard = [['Классический', 'Обычный'],
                    ['Правила']]
